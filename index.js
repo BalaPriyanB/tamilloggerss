@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 connectDb();
 
 const corsOptions = {
-  origin: "https://tamilloggerss-7ssy.vercel.app",
+  origin: "https://tamilloggerss.onrender.com",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
