@@ -31,4 +31,4 @@ jobs:
         
         # Deploy backend
         cd $GITHUB_WORKSPACE
-        node server.js &
+        node index.js &
